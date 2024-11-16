@@ -5,6 +5,7 @@
     --bs-accordion-border-color: none !important;
     --bs-accordion-color: none !important;
     font-family: var(--font-family) !important;
+    max-width: 922px !important;
 }    
 
 .accordion-button:focus {
@@ -26,6 +27,5 @@
 .accordion-item {
     background-color: var(--background-color-yellow) !important;
     font-size: var(--fs-18px) !important;
-    max-width: 922px !important;
 }
 
