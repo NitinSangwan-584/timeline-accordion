@@ -1,53 +1,32 @@
 @import url("./root.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.lh-27px {
-    line-height: 27px;
-}
-
-
-.w-922px {
-    max-width: 922px;
-}
-
-.lh-32px {
-    line-height: 32.4px;
-}
-
-.mt-8px {
-    margin-top: 8px;
-}
-
 .accordion {
     --bs-accordion-border-color: none !important;
-
     --bs-accordion-color: none !important;
+    font-family: var(--font-family) !important;
+    max-width: 922px !important;
+}
+
+.accordion-header {
+    line-height: 27px !important;
 }
 
 .accordion-button:focus {
     box-shadow: none !important;
 }
 
+.accordion-body {
+    line-height: 32.4px !important;
+}
+
 .accordion-button {
     color: black !important;
+    background-color: var(--background-color-yellow) !important;
+    margin-top: 8px !important;
 }
 
 .accordion-item {
-    background-color: var(--background-color-yellow);
-}
-
-.font-size {
-    font-size: var(--font-size) !important;
-}
-
-.font-family {
-    font-family: var(--font-family) !important;
-}
-
-.color-dark-yellow {
-    background-color: var(--color-dark-yellow);
-}
-
-.text-opicity {
-    opacity: var(--text-opicity);
+    background-color: var(--background-color-yellow) !important;
+    font-size: var(--fs-18px) !important;
 }
