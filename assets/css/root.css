@@ -1,10 +1,10 @@
 :root {
     --fs-18px: 18px;
     --background-color-yellow: #FFF03F;
-    --font-family: "Poppins";
+    --font-family: "Poppins", sans-serif;
     --color-dark-yellow: #F6E300;
     --text-opicity: 70%;
-    --fs-48: 48px;
+    --fs-48px: 48px;
 }
 
 .color-dark-yellow {
@@ -15,10 +15,7 @@
     opacity: var(--text-opicity);
 }
 
-.font-famiy {
+.font-family {
     font-family: var(--font-family);
 }
 
-.fs-48 {
-    font-size: var(--fs-48);
-}
