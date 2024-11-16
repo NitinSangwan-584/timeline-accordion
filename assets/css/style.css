@@ -5,12 +5,7 @@
     --bs-accordion-border-color: none !important;
     --bs-accordion-color: none !important;
     font-family: var(--font-family) !important;
-    max-width: 922px !important;
-}
-
-.accordion-header {
-    line-height: 27px !important;
-}
+}    
 
 .accordion-button:focus {
     box-shadow: none !important;
@@ -18,15 +13,19 @@
 
 .accordion-body {
     line-height: 32.4px !important;
+    max-width: 866px !important;
 }
 
 .accordion-button {
     color: black !important;
     background-color: var(--background-color-yellow) !important;
     margin-top: 8px !important;
+    line-height: 27px !important;  
 }
 
 .accordion-item {
     background-color: var(--background-color-yellow) !important;
     font-size: var(--fs-18px) !important;
+    max-width: 922px !important;
 }
+
