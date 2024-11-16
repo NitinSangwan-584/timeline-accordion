@@ -3,5 +3,13 @@
     --background-color-yellow: #FFF03F;
     --font-family: "Poppins";
     --color-dark-yellow: #F6E300;
-    --text-opicity: .7;
+    --text-opicity:70%;
+    --lh-72:72px;
+}
+.lh-72{
+    line-height: var(--lh-72);
+}
+
+.background-color-yellow {
+    background-color: var(--background-color-yellow) !important;
 }

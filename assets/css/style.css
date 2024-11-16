@@ -5,18 +5,22 @@
     line-height: 27px;
 }
 
+
+.w-922px {
+    max-width: 922px;
+}
+
 .lh-32px {
-    line-height: 32px;
+    line-height: 32.4px;
 }
 
 .mt-8px {
-    margin-top: 8px !important;
+    margin-top: 8px;
 }
 
 .accordion {
     --bs-accordion-border-color: none !important;
-    max-width: 922px;
-    width: 100%;
+
     --bs-accordion-color: none !important;
 }
 
@@ -36,10 +40,6 @@
     font-size: var(--font-size) !important;
 }
 
-.background-color-yellow {
-    background-color: var(--background-color-yellow) !important;
-}
-
 .font-family {
     font-family: var(--font-family) !important;
 }
@@ -49,5 +49,5 @@
 }
 
 .text-opicity {
-    opacity: var(--text-opicity) !important;
+    opacity: var(--text-opicity);
 }
